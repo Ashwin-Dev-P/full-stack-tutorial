@@ -1,0 +1,71 @@
+body {
+  margin: 0% !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px;
+}
+
+li {
+  width: 30% !important;
+  margin: 20px;
+  display: inline;
+}
+
+header {
+  border-bottom: 5px solid black;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+fieldset {
+  padding: 30px;
+}
+
+legend {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+input {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+}
+
+.my-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+#my_form {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#my_form:hover {
+  width: 50%;
+  margin-left: 25%;
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+#brand {
+  font-size: 30px;
+}
